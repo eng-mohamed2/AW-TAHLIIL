@@ -1,3 +1,30 @@
+*{
+    color: white;
+}
 body{
-    background-color: aquamarine;
+    background-color: rgb(252, 252, 252);
+}
+.navbar .navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar .navbar-brand:hover{
+    color: white;
+}
+.navbar .navbar-nav{
+   /* border: 1px solid white;*/
+   color: white;
+}
+.navbar-nav .nav-item .nav-link{
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif, ;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+    transition: all ease-in-out .3s;
+    background-color:   tomato;
 }
